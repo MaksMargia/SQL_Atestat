@@ -41,6 +41,5 @@ BEGIN
 END //
 DELIMITER ;
 
-
-CALL get_even(1, 20);
 CALL second_counter(654321);
+CALL get_even(1, 10);
