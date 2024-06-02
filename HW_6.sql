@@ -1,5 +1,6 @@
 CREATE DATABASE MyData;
 use MyData;
+
 -- Задание №1
 DELIMITER //
 CREATE PROCEDURE second_counter(num INT)
@@ -17,7 +18,7 @@ BEGIN
     END CASE;
 END//
 DELIMITER ;
-CALL second_counter(654321);  
+ 
 
 
 -- Задание №2
@@ -39,5 +40,7 @@ BEGIN
     SELECT res_str;
 END //
 DELIMITER ;
+
+
 CALL get_even(1, 20);
-CALL second_counter(654321);  
+CALL second_counter(654321);
